@@ -6,7 +6,7 @@ import { PixabayAPI } from "./js/pixabay-abi";
 import { createMarkup } from "./js/markup";
 
 
-const refs = {
+export const refs = {
     body: document.querySelector('body'),
     form: document.getElementById('search-form'),
     gallery: document.querySelector('.gallery'),
