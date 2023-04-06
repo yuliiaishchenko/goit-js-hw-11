@@ -35,7 +35,7 @@ async function onSubmitForm(evt){
         return;
     }
 try {
-    const { hits, totalHits } = await pixabay.getImages();
+    const { hits, totalHits } = await pixabay.fetchImages();
     pixabay.setTotal(totalHits);
 
     if(hits.length === 0){
