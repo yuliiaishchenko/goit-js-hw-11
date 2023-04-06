@@ -70,7 +70,7 @@ async function onLoading(entries){
         try{
             if(entry.isIntersecting && pixabay.query !=='' && refs.gallery.childElementCount !== 0){
                 pixabay.incrementPage();
-                const { hits } = await pixabay.getImages();
+                const { hits } = await pixabay.fetchImages();
                 const markup = createMarkup(hits);
                 updateMarkup(markup);
 
