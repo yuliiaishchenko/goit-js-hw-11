@@ -1,9 +1,10 @@
 import { Notify } from "notiflix/build/notiflix-notify-aio";
 import simpleLightbox from "simplelightbox";
-
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { PixabayAPI } from "./js/pixabay-abi";
 import { createMarkup } from "./js/markup";
+import { spinnerPlay, spinnerStop } from "./js/spiner";
 
 
 export const refs = {
