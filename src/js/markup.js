@@ -11,7 +11,7 @@ downloads,
         return `
         <div class="photo-card">
         <a class="photo-link" href ="${largeImageURL}">
-  <img class="photo" src="${webformatURL}" alt="${tags}" loading="lazy" />
+  <img class="photo" src="${webformatURL}" alt="${tags}" width="300" loading="lazy" />
   <div class="info">
     <p class="info-item">
       <b>Likes</b>${likes}
