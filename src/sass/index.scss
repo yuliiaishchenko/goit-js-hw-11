@@ -1,15 +1,29 @@
-.container {
+body {
+min-height: 100vh;
+width: 100%;
+background: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form__container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
 }
-
+.form__input{
+    border: none;
+    padding: 15px;
+}
 
 .form__button{
-    display: inline-flex;
-    height: 30px;
-    padding: 0;
+   position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -30,16 +44,3 @@
 
 
 
-
-.form__button-text,
-.form__button-icon{
-display: inline-flex;
-align-items: center;
-padding: 0 12px;
-color: aliceblue;
-}
-
-.form__button-icon{
-    font-size: 1.5 em;
-    background-color: rgba(0,0,0,0.08);
-}
