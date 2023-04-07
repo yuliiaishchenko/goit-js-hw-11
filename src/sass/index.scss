@@ -1,2 +1,45 @@
-@import './common';
-@import './example';
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+.form__button{
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+.form__button :hover{
+    background-color: lightseagreen;
+}
+.form__button:active{
+    background-color: lightblue;
+}
+
+
+
+
+.form__button-text,
+.form__button-icon{
+display: inline-flex;
+align-items: center;
+padding: 0 12px;
+color: aliceblue;
+}
+
+.form__button-icon{
+    font-size: 1.5 em;
+    background-color: rgba(0,0,0,0.08);
+}
