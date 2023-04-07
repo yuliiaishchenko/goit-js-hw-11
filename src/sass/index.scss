@@ -27,6 +27,7 @@ line-height: 1.15;
     text-align: left;
     font-size: 25px;
     font-family: cursive;
+   
 }
 
 .form__button{
@@ -42,16 +43,19 @@ line-height: 1.15;
     overflow: hidden;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
-    font-weight: 500;
     cursor: pointer;
     background-color: lightskyblue;
+    font-weight: bold;
+    transition: all .15s cubic-bezier(0.4,0,0.2,1);
 }
 
 .form__button :hover{
     background-color: lightseagreen;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .form__button:active{
     background-color: lightblue;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23) ;
 }
 
 .form__input:hover{
