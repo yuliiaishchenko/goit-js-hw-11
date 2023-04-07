@@ -5,6 +5,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 line-height: 1.15;
 }
 
+.search-form{
+    margin-top: 30px;
+} 
+
 .form__container {
     display: flex;
     position: relative;
@@ -19,8 +23,10 @@ line-height: 1.15;
     height: 30px;
     border-color: #87cefa;
     padding: 15px;
-    border-radius: 5px;
-    text-align: center;
+    border-radius: 25px;
+    text-align: left;
+    font-size: 25px;
+    font-family: cursive;
 }
 
 .form__button{
@@ -32,7 +38,7 @@ line-height: 1.15;
     padding: 15px;
     border: none;
     outline: none;
-    border-radius: 5px;
+    border-radius: 25px;
     overflow: hidden;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -49,10 +55,27 @@ line-height: 1.15;
 }
 
 .form__input:hover{
-    border-color: lightseagreen;
-}
+    border-color: lightseagreen;}
+    
 .form__input:active{
     border-color: lightblue;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 15px;
+}
 
+.photo-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: calc((100% - 80px)/4);
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
