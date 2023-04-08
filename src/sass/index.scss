@@ -78,7 +78,7 @@ line-height: 1.15;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: calc((100% - 80px)/4);
-    opacity: 0.5;
+    
 }
 .info{
     display: flex;
@@ -94,3 +94,6 @@ line-height: 1.15;
     color: black;
     text-decoration: none;
 }
+
+
+.backdrop is-hidden{style:"background-image= url('${largeImageURL})"}
