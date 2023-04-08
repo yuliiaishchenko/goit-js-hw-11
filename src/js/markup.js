@@ -9,7 +9,7 @@ comments,
 downloads, 
     }) => {
         return `
-        <div class="photo-card" style="background-image= url('${largeImageURL})">
+        <div class="photo-card" >
         <a class="photo-link" href ="${largeImageURL}">
   <img class="photo" src="${webformatURL}" alt="${tags}" width="300" loading="lazy" />
   <div class="info">
