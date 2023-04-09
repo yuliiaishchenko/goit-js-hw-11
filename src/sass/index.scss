@@ -65,6 +65,11 @@ line-height: 1.15;
     padding: 15px;
 }
 
+.photo{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 .photo-card{
     display: flex;
     flex-direction: column;
@@ -85,6 +90,7 @@ line-height: 1.15;
     align-items: center;
     color: black;
     text-decoration: none;
+    font-family: cursive;
 }
 
 
